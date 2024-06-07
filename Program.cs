@@ -13,6 +13,7 @@ namespace Seion.GenuineClient
 
             var rootDir = $@"{Environment.CurrentDirectory}\GenuineClient";
             CreateEmptyTextFile($@"{rootDir}\BattlEye\BEClient_x64.dll");
+            CreateEmptyTextFile($@"{rootDir}\BattlEye\BEService_x64.exe");
             CreateEmptyTextFile($@"{rootDir}\ConsistencyInfo");
             CreateEmptyTextFile($@"{rootDir}\Uninstall.exe");
             CreateEmptyTextFile($@"{rootDir}\UnityCrashHandler64.exe");
